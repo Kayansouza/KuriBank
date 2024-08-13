@@ -1,0 +1,14 @@
+{
+    "workbench.settings.useSplitJSON": true
+    "workbench.colorCustomizations": {
+    "activityBar.background": "#333333",
+    "activityBar.foreground": "#ffffff",
+    "activityBarBadge.background": "#007acc",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBar.background": "#252526",
+    "sideBar.foreground": "#cccccc",
+    "sideBarSectionHeader.background": "#007acc",
+    "sideBarSectionHeader.foreground": "#ffffff"
+}
+
+}

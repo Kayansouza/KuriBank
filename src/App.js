@@ -1,14 +1,15 @@
-// src/App.js
+// src/App.js ou onde suas rotas são definidas
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import ProductPage from './pages/ProductPage';
+import WelcomePage from './components/WelcomePage';
+import SavingsAndChecking from './components/SavingsAndChecking';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/products" element={<ProductPage />} />
+        <Route path="/" element={<WelcomePage />} />
+        <Route path="/contas" element={<SavingsAndChecking />} />
+        {/* Outras rotas */}
       </Routes>
     </Router>
   );
