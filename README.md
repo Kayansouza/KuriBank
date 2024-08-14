@@ -1,3 +1,8 @@
+
+DOCUMENTAÇÃO DO PROJETO - https://www.notion.so/Documenta-o-do-Sistema-de-Registro-Autentica-o-e-CRUD-f734e792d4a847edaf223389182f255e?pvs=4
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
