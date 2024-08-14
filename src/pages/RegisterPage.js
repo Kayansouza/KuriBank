@@ -1,12 +1,13 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
-const RegisterPage = () => {
-    return (
-        <div>
-            <h1>Cadastro</h1>
-            {/* Formulário de registro aqui */}
-        </div>
-    );
-};
+function WelcomePage() {
+  return (
+    <div>
+      <h1>Bem-vindo</h1>
+      <Link to="/cadastro">Cadastre-se</Link> {/* Link para a página de cadastro */}
+      {/* Outros conteúdos */}
+    </div>
+  );
+}
 
-export default RegisterPage;
+export default WelcomePage;

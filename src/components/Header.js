@@ -1,5 +1,5 @@
+import { Link } from 'react-router-dom';
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 //import logo from '../assets/images/Boutique-logo.png'; // Atualize o caminho conforme necessário
 
 function Header() {
@@ -35,16 +35,20 @@ function Header() {
                 </ul>
             </nav>
 
-            <div className="flex items-center space-x-4">
-                <input 
-                    type="text" 
-                    placeholder="Pesquisar..." 
-                    className="p-2 border border-gray-300 rounded-md"
-                />
-                <Link to="/login" className="text-blue-500">Iniciar Sessão</Link>
-                <Link to="/cart" className="text-blue-500">Carrinho</Link>
-                <Link to="/favorites" className="text-blue-500">Favoritos</Link>
-            </div>
+            <div className="flex flex-col min-h-screen bg-gray-100">
+      {/* Seu código existente... */}
+      <div className="flex items-center space-x-4 p-4">
+        <input
+          type="text"
+          placeholder="Pesquisar..."
+          className="p-2 border border-gray-300 rounded-md"
+        />
+        <Link to="/login" className="text-blue-500">Iniciar Sessão</Link>
+        <Link to="/cart" className="text-blue-500">Carrinho</Link>
+        <Link to="/favorites" className="text-blue-500">Favoritos</Link>
+      </div>
+      {/* Resto do seu componente... */}
+    </div>
         </header>
     );
 }
