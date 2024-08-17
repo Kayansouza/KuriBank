@@ -11,6 +11,7 @@ const Footer = () => {
           <li><a href="#" className="hover:text-gray-400">Política de Privacidade</a></li>
           <li><a href="#" className="hover:text-gray-400">Termos de Serviço</a></li>
           <li><a href="#" className="hover:text-gray-400">Suporte</a></li>
+          <li><a href="#" className="hover:text-gray-400">Seguros</a></li>
         </ul>
         <div className="mt-4 flex space-x-4">
           <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-facebook-f"></i></a>
