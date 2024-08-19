@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './NavBar';
+import NavBar from './NavBar';  // Corrigido: Removido o `.js`
 import Footer from './Footer';
 import PersonalPage from './PersonalPage';
 import Support from './Support';
 import Chatbot from './Chatbot';
-import Seguros from './seguros';
+import InsurancePage from './InsurancePage';  // Corrigido: Removido o `.js`
+
+
 
 const WelcomePage = () => {
   const [showServices, setShowServices] = useState(true);

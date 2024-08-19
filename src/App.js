@@ -8,7 +8,7 @@ import TermsPage from './components/TermsPage';
 import InsurancePage from './components/InsurancePage';
 import OpenAccountPage from './components/OpenAccountPage';
 import ConsultantPage from './components/ConsultantPage';
-
+import NavBar from './components/NavBar';
 function App() {
   return (
     <Router>

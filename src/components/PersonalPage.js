@@ -37,13 +37,15 @@ const PersonalPage = () => {
     <div>
            {/* Main Content */}
       <main className="py-12">
+      <h2 className="text-3xl font-bold mb-6"> "Unidos por mais de 30.000.000 de clientes, KuriBank transforma sua vida financeira com transparência, simplicidade e inovação. Descubra o melhor do banco, no Brasil e no mundo, e faça parte da escolha que define um novo padrão de excelência!"
+
+</h2>
         <div className="container mx-auto px-4">
           {/* Hero Section */}
           
 
           {/* Services Section */}
           <section id="services" className="mb-12">
-            <h2 className="text-3xl font-bold mb-6">Nossos Serviços</h2>
             <div className="bg-white rounded-lg shadow-md">
               <div className="flex border-b">
                 {services.map(service => (
@@ -68,7 +70,7 @@ const PersonalPage = () => {
           <section id="benefits" className="bg-gray-200 p-8 rounded-lg shadow-md mb-12">
             <h2 className="text-3xl font-bold mb-6">Benefícios Exclusivos</h2>
             <p className="text-gray-700 mb-6">
-              Aproveite nossos benefícios exclusivos, incluindo taxas especiais, atendimento personalizado e muito mais.
+            
             </p>
             {/* Add more benefits as needed */}
           </section>

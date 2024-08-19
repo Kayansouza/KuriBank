@@ -1,20 +1,15 @@
-// src/components/NavBar.js
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="bg-black shadow-md">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <h1 className="text-2xl font-bold text-white">KuriBank - Feito para você</h1>
-        <div className="hidden md:flex space-x-6">
-          <Link to="#services" className="text-white hover:text-gray-300 transition duration-300">Serviços</Link>
-          <Link to="#about" className="text-white hover:text-gray-300 transition duration-300">Sobre Nós</Link>
-          <Link to="#contact" className="text-white hover:text-gray-300 transition duration-300">Contato</Link>
-        </div>
-        <div className="flex space-x-4">
-          <a href="/webbanking" className="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-700 transition duration-300">Acessar Web Banking</a>
-          <a href="/open-account" className="px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition duration-300">Abrir Minha Conta</a>
+    <nav className="bg-gray-800 p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-white text-2xl font-bold">KuriBank</div>
+        <div className="space-x-4">
+          <Link to="/open-account" className="text-white hover:text-gray-400">Abrir Conta</Link>
+          <Link to="/consultant" className="text-white hover:text-gray-400">Falar com Consultor</Link>
+          <Link to="/support" className="text-white hover:text-gray-400">Suporte</Link>
+          <Link to="/seguros" className="text-white hover:text-gray-400">Seguros</Link>
         </div>
       </div>
     </nav>
